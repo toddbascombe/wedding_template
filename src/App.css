@@ -1,0 +1,131 @@
+html, body, #root, #parent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.MuiPaper-root{
+  background-color: rgba(255, 255, 255, 0) !important;
+  box-shadow: none !important;
+}
+
+
+#logo{
+  color: black !important;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+}
+
+#burgerMenu{
+  color: black !important;
+  background-color: #FFF5EE;
+  border-radius: 50%;
+}
+.jumbotron{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.jumbotron h1{
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  z-index: 2;
+  top: -60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+#Main{
+  width: 100%;
+  height: 100%;
+  padding: 0 !important;
+}
+
+video{ 
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+.subHeader{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.content-para{
+  margin-right: 4rem;
+}
+
+.photo img{
+ height: 400px;
+ opacity: .7;
+ box-shadow: 60px -16px #FFF5EE;
+}
+
+.card{
+  max-width: 1200px;
+  /* background-color: #F9F6EE !important; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.content-right{
+  margin-left: 6rem;
+}
+
+.photo-right img{
+  height: 400px;
+  opacity: .6;
+  box-shadow: 60px -16px #FFF5EE;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-RSVP{
+  background-color: #FFF5EE !important;
+  font-size: 1.5rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  left: 40%;
+}
+
+.RSVP{
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
