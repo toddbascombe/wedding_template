@@ -1,13 +1,13 @@
 import React from 'react'
-import vid from '../Assets/production ID_3704007.mp4'
+import {getRandomEntry} from '../util'
 
-const Jumbotron =()=>{
+const Jumbotron = ({pics}) => {
+  const {url, description} = getRandomEntry(pics)
+  
   return (
     <div className='jumbotron'>
-      <video  autoPlay loop muted>
-        <source src={vid} type='video/mp4' />
-      </video>
-      <h1> Todd & Bianca </h1>
+      <img src={url} alt={description} />
+      <h1> MaryAlexa & Silvino </h1>
     </div>
   )
   

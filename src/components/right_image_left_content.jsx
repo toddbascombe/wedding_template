@@ -1,13 +1,16 @@
 import React from 'react'
+import {getRandomEntry} from '../util'
 
-const LeftContent = (props)=>{
+const LeftContent = ({pics, children}) => {
+  const {url, description} = getRandomEntry(pics)
+  
   return(
     <div className="content">
       <div className="content-para">
-        {props.children}
+        {children}
       </div>
       <div className="photo">
-       <img src={props.url} alt={props.description} />
+       <img src={url} alt={description} />
       </div>
     </div>
   )
