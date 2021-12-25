@@ -4,7 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import MuiAppBar from '@mui/material/AppBar';
-import { styled} from '@mui/material/styles';
+import {styled} from '@mui/material/styles';
 
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== 'open',
@@ -29,7 +29,7 @@ const NavBar = (props) =>{
       <AppBar position="fixed" open={props.open} className='navbar' drawerWidth={props.drawerWidth}>
         <Toolbar>
           <Typography variant="h6" noWrap sx={{ flexGrow: 1 }} component="div" id="logo">
-            T & B
+            M & S
           </Typography>
           <IconButton
             color="inherit"
