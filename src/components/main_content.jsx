@@ -9,6 +9,7 @@ import FadeInSection from './fadein';
 import Button from '@mui/material/Button';
 import {splitarray} from '../util'
 import {coverPhotos, allExceptCover} from '../images'
+import PasswordDialog from './password_dialog'
 
 const images = splitarray(allExceptCover, allExceptCover.length / 3)
 console.log(images)
@@ -35,6 +36,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
 const MainContent = (props) =>(
   <>
     <Main open={props.open} id="Main">
+       <PasswordDialog/>
        <Jumbotron pics={coverPhotos} />
        <FadeInSection>
          <div>

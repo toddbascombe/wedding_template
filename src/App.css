@@ -51,6 +51,36 @@ body,
   opacity: 0.4;
 }
 
+/* password modal --> start */
+
+#password_dialog .MuiDialog-paper {
+  background-color: rgba(41, 41, 41, 0.975) !important;
+  color: rgb(255, 255, 255);
+}
+
+#password_dialog_field_content .MuiInputLabel-root {
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive !important;
+  font-size: 1em;
+}
+
+#password_dialog_btn {
+  color: rgb(255, 255, 255);
+  font-family: "Dancing Script", cursive !important;
+  font-size: 1em;
+}
+
+input#password_dialog_field {
+  color: rgb(255, 255, 255);
+}
+
+#password_dialog .MuiDialogTitle-root {
+  font-family: "Dancing Script", cursive !important;
+  font-size: 1.5em;
+}
+
+/* password modal --> end */
+
 #Main {
   width: 100%;
   height: 100%;
