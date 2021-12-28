@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0a33ad6.chunk.css",
+    "main.js": "/static/js/main.e3cb5357.chunk.js",
+    "main.js.map": "/static/js/main.e3cb5357.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a99bc87.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a99bc87.js.map",
+    "static/js/2.dcfde3e1.chunk.js": "/static/js/2.dcfde3e1.chunk.js",
+    "static/js/2.dcfde3e1.chunk.js.map": "/static/js/2.dcfde3e1.chunk.js.map",
+    "static/js/3.9756f6ac.chunk.js": "/static/js/3.9756f6ac.chunk.js",
+    "static/js/3.9756f6ac.chunk.js.map": "/static/js/3.9756f6ac.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d0a33ad6.chunk.css.map": "/static/css/main.d0a33ad6.chunk.css.map",
+    "static/js/2.dcfde3e1.chunk.js.LICENSE.txt": "/static/js/2.dcfde3e1.chunk.js.LICENSE.txt",
+    "static/media/beach_1.aa5de590.jpg": "/static/media/beach_1.aa5de590.jpg",
+    "static/media/beach_2.25f35312.jpg": "/static/media/beach_2.25f35312.jpg",
+    "static/media/beach_3-large.acf966c7.jpg": "/static/media/beach_3-large.acf966c7.jpg",
+    "static/media/beach_3.3b88a26a.jpg": "/static/media/beach_3.3b88a26a.jpg",
+    "static/media/beach_4.63ac1061.jpg": "/static/media/beach_4.63ac1061.jpg",
+    "static/media/beach_5.0a0ae946.jpg": "/static/media/beach_5.0a0ae946.jpg",
+    "static/media/brick.75c569cd.jpg": "/static/media/brick.75c569cd.jpg",
+    "static/media/dinner.5b1215c3.jpg": "/static/media/dinner.5b1215c3.jpg",
+    "static/media/jacksonhole.8e8c144f.jpg": "/static/media/jacksonhole.8e8c144f.jpg",
+    "static/media/matterhorn.0a076c8f.jpg": "/static/media/matterhorn.0a076c8f.jpg",
+    "static/media/milian.3de063cc.jpg": "/static/media/milian.3de063cc.jpg",
+    "static/media/netflix.be4a18f7.png": "/static/media/netflix.be4a18f7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a99bc87.js",
+    "static/js/2.dcfde3e1.chunk.js",
+    "static/css/main.d0a33ad6.chunk.css",
+    "static/js/main.e3cb5357.chunk.js"
+  ]
+}

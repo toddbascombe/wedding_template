@@ -1,9 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-const SubHeader = (props) =>(
-  <div id={props.title === 'Our Story' ? 'ourstory' : `${props.title }`} className="subHeader">
-    <h2>{props.title}</h2>
-  </div> 
+const SubHeader = ({ title }) => (
+  <div
+    id={title === 'Our Story' ? 'ourstory' : `${title}`}
+    className="subHeader"
+  >
+    <h2>{title}</h2>
+  </div>
 )
+
+SubHeader.propTypes = {
+  title: PropTypes.string
+}
 
 export default SubHeader

@@ -1,16 +1,22 @@
-import React from 'react'
-import vid from '../Assets/production ID_3704007.mp4'
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
-const Jumbotron =()=>{
+import { getRandomEntry } from '../util'
+
+const Jumbotron = ({ pics }) => {
+  const randomPic = getRandomEntry(pics)
+  const [pic] = useState(randomPic)
+
   return (
-    <div className='jumbotron'>
-      <video  autoPlay loop muted>
-        <source src={vid} type='video/mp4' />
-      </video>
-      <h1> Todd & Bianca </h1>
+    <div className="jumbotron">
+      <img src={pic.url} alt={pic.description} />
+      <h1> MaryAlexa & Silvino </h1>
     </div>
   )
-  
+}
+
+Jumbotron.propTypes = {
+  pics: PropTypes.object.isRequired
 }
 
 export default Jumbotron
